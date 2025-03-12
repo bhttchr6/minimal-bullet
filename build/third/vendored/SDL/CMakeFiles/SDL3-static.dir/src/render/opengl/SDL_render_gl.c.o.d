@@ -1,0 +1,23 @@
+third/vendored/SDL/CMakeFiles/SDL3-static.dir/src/render/opengl/SDL_render_gl.c.o: \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/SDL_render_gl.c \
+ /usr/include/stdc-predef.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/SDL_internal.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/../../video/SDL_sysvideo.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/include/SDL3/SDL_error.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/include/SDL3/SDL_video.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/include/SDL3/SDL_close_code.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/../../video/SDL_surface_c.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/../../video/SDL_blit.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/include/SDL3/SDL_opengl.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/include/SDL3/SDL_platform.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/../SDL_sysrender.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/../../video/SDL_surface_c.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/../SDL_yuv_sw_c.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/SDL_shaders_gl.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/../../video/SDL_pixels_c.h \
+ /home/anurag/Documents/Projects/robotics/third/vendored/SDL/src/render/opengl/SDL_glfuncs.h
