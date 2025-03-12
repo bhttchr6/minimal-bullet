@@ -10,7 +10,7 @@
 class Camera {
 public:
     float x, y, z;
-    Camera() : x(0), y(5), z(10) {}
+    Camera() : x(0), y(10), z(50) {}
     void move(float dx, float dy, float dz) {
         x += dx;
         y += dy;
@@ -84,8 +84,11 @@ void renderSphere(float radius, int slices, int stacks) {
 void renderScene() {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glLoadIdentity();
-    
-    glm::mat4 view = glm::lookAt(glm::vec3(camera.x, camera.y, camera.z), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+    const float radius = 10.0f;
+    float camX = sin(glfwGetTime()) * radius;
+    float camZ = cos(glfwGetTime()) * radius;
+    glm::mat4 view = glm::lookAt(glm::vec3(camX, 0.0, camZ), glm::vec3(0.0, 0.0, 0.0), glm::vec3(0.0, 1.0, 0.0)); 
+    //glm::mat4 view = glm::lookAt(glm::vec3(camera.x, camera.y, camera.z), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
     
     // Render ground plane
     glColor3f(0.3f, 0.3f, 0.3f);
